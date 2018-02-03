@@ -4,7 +4,6 @@ var powerThoughts = [
 "To live a creative life, we must lose our fear of being wrong. ~Anonymous",
 "If you are not willing to risk the usual you will have to settle for the ordinary. ~Jim Rohn",
 "Trust because you are willing to accept the risk, not because it's safe or certain. ~Anonymous",
-"Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success. ~Swami Vivekananda",
 " All our dreams can come true if we have the courage to pursue them. ~Walt Disney",
 "Good things come to people who wait, but better things come to those who go out and get them. ~Anonymous",
 "If you do what you always did, you will get what you always got. ~Anonymous",
@@ -62,20 +61,16 @@ var powerThoughts = [
 "As we look ahead into the next century, leaders will be those who empower others. ~Bill Gates",
 "A real entrepreneur is somebody who has no safety net underneath them. ~Henry Kravis",
 "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself. ~Mark Caine",
-" People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy. ~Tony Robbins",
 "When I dare to be powerful - to use my strength in the service of my vision, then it becomes less and less important whether I am afraid. ~Audre Lorde",
 "Whenever you find yourself on the side of the majority, it is time to pause and reflect. ~Mark Twain",
 "he successful warrior is the average man, with laser-like focus. ~Bruce Lee",
-"Take up one idea. Make that one idea your life — think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success. ~Swami Vivekananda",
 "Develop success from failures. Discouragement and failure are two of the surest stepping stones to success. ~Dale Carnegie",
 "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much. ~ Jim Rohn",
 "If you genuinely want something, don't wait for it — teach yourself to be impatient. ~Gurbaksh Chahal",
 " Don't let the fear of losing be greater than the excitement of winning. ~Robert Kiyosaki",
 "If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you! ~T. Harv Eker",
-" You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life. ~Steve Jobs",
 " Successful people do what unsuccessful people are not willing to do.Don't wish it were easier, wish you were better. ~Jim Rohn",
 "The number one reason people fail in life is because they listen to their friends, family, and neighbors. ~Napoleon Hill",
-"The reason most people never reach their goals is that they don't define them, or ever seriously consider them as believable or achievable. Winners can tell you where they are going, what they plan to do along the way, and who will be sharing the adventure with them. ~Denis Watiley",
 "In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it. ~Jane Smiley",
 "Success does not consist in never making mistakes but in never making the same one a second time. ~George Bernard Shaw",
 "I don't want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well. ~Diane Ackerman",
@@ -98,7 +93,6 @@ var powerThoughts = [
 "Failure is the condiment that gives success its flavor. ~Truman Capote",
 " Don't let what you cannot do interfere with what you can do. ~John R. Wooden",
 "You may have to fight a battle more than once to win it. ~Margaret Thatcher",
-"A man can be as great as he wants to be. If you believe in yourself and have the courage, the determination, the dedication, the competitive drive and if you are willing to sacrifice the little things in life and pay the price for the things that are worthwhile, it can be done. ~Vince Lombardi",
 "Stay Hungry, Stay Foolish. ~Steve Jobs"
 ]
 var color = [
@@ -122,5 +116,5 @@ var content = document.getElementById('content');
 }());
 function generate() {
 content.style.color = color[Math.floor((Math.random()*10)+1)];
-	content.innerHTML = powerThoughts[Math.floor((Math.random() * 100) + 1)];
+	content.innerHTML = powerThoughts[Math.floor((Math.random() * 94) + 1)];
 }

@@ -134,7 +134,8 @@ button:hover {
 @media screen and (max-width: 800px) {
 	#content {
 		width: 85%;
-		height: 40vh;
+		height: 50vh;
+		margin-top: 2rem;
 
 	}
 
