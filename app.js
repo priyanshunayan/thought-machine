@@ -111,8 +111,8 @@ var color = [
 ]
 var content = document.getElementById('content');
 (function() {
-	
-	content.innerHTML = "People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily. ~Zig Ziglar";
+	content.innerHTML= powerThoughts[Math.floor((Math.random() * 94) + 1)];
+	//content.innerHTML = "People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily. ~Zig Ziglar";
 }());
 function generate() {
 content.style.color = color[Math.floor((Math.random()*10)+1)];
